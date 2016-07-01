@@ -33,5 +33,11 @@ public class testngTest
         System.out.println("method3 is executed in thread " + id);
     }
 
+    @Test
+    public void method4() {
+        long id = Thread.currentThread().getId();
+        System.out.println("method3 is executed in thread " + id);
+    }
+
  
 }
